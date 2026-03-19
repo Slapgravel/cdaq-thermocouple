@@ -1,0 +1,23 @@
+# cdaq-thermocouple dependencies
+# Python 3.9+ required
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# NOTE: nidaqmx requires NI-DAQmx driver software to be installed separately.
+#       Download from: https://www.ni.com/en/support/downloads/drivers/download.ni-daq-mx.html
+
+# GUI framework
+PyQt6>=6.4.0
+
+# Real-time plotting
+pyqtgraph>=0.13.0
+
+# Numerical processing
+numpy>=1.22.0
+
+# NI-DAQmx Python API (nitypes is pulled in automatically as a dependency)
+nidaqmx>=1.0.0
+
+# PyInstaller (only needed for building the standalone executable)
+pyinstaller>=6.0.0
