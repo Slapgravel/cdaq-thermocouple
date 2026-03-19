@@ -1,9 +1,31 @@
-﻿__pycache__/
+__pycache__/
 *.pyc
+*.pyo
 venv/
 env/
+.env
 build/
 dist/
 *.egg-info/
 data_logs/
 *.sqlite
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller
+*.spec.bak
+
+# Test / coverage artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Editor settings
+.vscode/
+.idea/
+
+# CSV log output (generated at runtime)
+temperature_log.csv
